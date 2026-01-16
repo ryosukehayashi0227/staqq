@@ -14,7 +14,7 @@ struct HelpView: View {
         HelpTopic(
             title: "Scanning Documents",
             icon: "camera.viewfinder",
-            content: "Tap the camera button to start scanning. Position the document within the frame, and the app will automatically capture it. You can correct the perspective later."
+            content: "Tap the camera button to start scanning. You can toggle Auto/Manual capture from the top right button. Position the document within the frame to capture automatically, or use Manual mode to take photos yourself."
         ),
         HelpTopic(
             title: "Organizing with Folders",
