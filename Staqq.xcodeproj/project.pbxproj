@@ -6,8 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F1BF133D2F16935600251D2E /* OCRDocumentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF13362F16935600251D2E /* OCRDocumentService.swift */; };
+		F1BF133E2F16935600251D2E /* DocumentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF13392F16935600251D2E /* DocumentListView.swift */; };
+		F1BF133F2F16935600251D2E /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF133B2F16935600251D2E /* ScannerView.swift */; };
+		F1BF13402F16935600251D2E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF133A2F16935600251D2E /* MainView.swift */; };
+		F1BF13412F16935600251D2E /* DocumentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF13342F16935600251D2E /* DocumentCard.swift */; };
+		F1BF13422F16935600251D2E /* DocumentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF13382F16935600251D2E /* DocumentDetailView.swift */; };
+		F1BF13442F16943100251D2E /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF13432F16943100251D2E /* CanvasView.swift */; };
+		F1BF134B2F17E7FE00251D2E /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF13492F17E7FE00251D2E /* HelpView.swift */; };
+		F1BF134C2F17E7FE00251D2E /* SidebarComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF134A2F17E7FE00251D2E /* SidebarComponents.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F1BF130D2F16860B00251D2E /* Staqq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Staqq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BF13342F16935600251D2E /* DocumentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCard.swift; sourceTree = "<group>"; };
+		F1BF13362F16935600251D2E /* OCRDocumentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRDocumentService.swift; sourceTree = "<group>"; };
+		F1BF13382F16935600251D2E /* DocumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailView.swift; sourceTree = "<group>"; };
+		F1BF13392F16935600251D2E /* DocumentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentListView.swift; sourceTree = "<group>"; };
+		F1BF133A2F16935600251D2E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F1BF133B2F16935600251D2E /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		F1BF13432F16943100251D2E /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CanvasView.swift; path = Views/Components/CanvasView.swift; sourceTree = "<group>"; };
+		F1BF13492F17E7FE00251D2E /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		F1BF134A2F17E7FE00251D2E /* SidebarComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +66,11 @@
 		F1BF13042F16860B00251D2E = {
 			isa = PBXGroup;
 			children = (
+				F1BF13432F16943100251D2E /* CanvasView.swift */,
+				F1BF13352F16935600251D2E /* Models */,
+				F1BF13372F16935600251D2E /* Services */,
+				F1BF133C2F16935600251D2E /* Views */,
+				F1BF13232F16897D00251D2E /* Components */,
 				F1BF130F2F16860B00251D2E /* Staqq */,
 				F1BF130E2F16860B00251D2E /* Products */,
 			);
@@ -56,6 +82,42 @@
 				F1BF130D2F16860B00251D2E /* Staqq.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BF13232F16897D00251D2E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F1BF13352F16935600251D2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF13342F16935600251D2E /* DocumentCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1BF13372F16935600251D2E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF13362F16935600251D2E /* OCRDocumentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F1BF133C2F16935600251D2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF13492F17E7FE00251D2E /* HelpView.swift */,
+				F1BF134A2F17E7FE00251D2E /* SidebarComponents.swift */,
+				F1BF13382F16935600251D2E /* DocumentDetailView.swift */,
+				F1BF13392F16935600251D2E /* DocumentListView.swift */,
+				F1BF133A2F16935600251D2E /* MainView.swift */,
+				F1BF133B2F16935600251D2E /* ScannerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +166,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = F1BF13042F16860B00251D2E;
 			minimizedProjectReferenceProxies = 1;
@@ -132,6 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BF13442F16943100251D2E /* CanvasView.swift in Sources */,
+				F1BF133D2F16935600251D2E /* OCRDocumentService.swift in Sources */,
+				F1BF133E2F16935600251D2E /* DocumentListView.swift in Sources */,
+				F1BF133F2F16935600251D2E /* ScannerView.swift in Sources */,
+				F1BF134B2F17E7FE00251D2E /* HelpView.swift in Sources */,
+				F1BF134C2F17E7FE00251D2E /* SidebarComponents.swift in Sources */,
+				F1BF13402F16935600251D2E /* MainView.swift in Sources */,
+				F1BF13412F16935600251D2E /* DocumentCard.swift in Sources */,
+				F1BF13422F16935600251D2E /* DocumentDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +218,11 @@
 				CODE_SIGN_ENTITLEMENTS = Staqq/Staqq.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7756LZLK3S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Staqq/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "書類をスキャンするためにカメラを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -162,6 +236,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ryo-ching.Staqq";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -179,9 +256,11 @@
 				CODE_SIGN_ENTITLEMENTS = Staqq/Staqq.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7756LZLK3S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Staqq/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "書類をスキャンするためにカメラを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -195,6 +274,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.ryo-ching.Staqq";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -2,9 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
-	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>書類をスキャンするためにカメラを使用します。</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>行事予定や提出期限をカレンダーに登録するために使用します。</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>com.hayashiryosuke.Staqq</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>staqq</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>
